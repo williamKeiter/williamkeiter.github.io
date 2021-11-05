@@ -169,7 +169,7 @@ p {
 .skills-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: auto;
   height: auto;
   padding: 20px;
   
@@ -178,9 +178,9 @@ p {
 @media only screen and (min-width: 769px) {
   .skills-container {
     flex-direction: column;
+    width: auto;
   }
 }
-
 
 .skill {
   width: auto;
